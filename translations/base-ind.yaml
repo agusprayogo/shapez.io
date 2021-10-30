@@ -1313,28 +1313,24 @@ puzzleMenu:
             medium: Normal
             long: Long (> 10 min)
 backendErrors:
-    ratelimit: You are performing your actions too frequent. Please wait a bit.
-    invalid-api-key: Failed to communicate with the backend, please try to
-        update/restart the game (Invalid Api Key).
-    unauthorized: Failed to communicate with the backend, please try to
-        update/restart the game (Unauthorized).
-    bad-token: Failed to communicate with the backend, please try to update/restart
-        the game (Bad Token).
-    bad-id: Invalid puzzle identifier.
-    not-found: The given puzzle could not be found.
-    bad-category: The given category could not be found.
-    bad-short-key: The given short key is invalid.
-    profane-title: Your puzzle title contains profane words.
-    bad-title-too-many-spaces: Your puzzle title is too short.
-    bad-shape-key-in-emitter: A constant producer has an invalid item.
-    bad-shape-key-in-goal: A goal acceptor has an invalid item.
-    no-emitters: Your puzzle does not contain any constant producers.
-    no-goals: Your puzzle does not contain any goal acceptors.
-    short-key-already-taken: This short key is already taken, please use another one.
-    can-not-report-your-own-puzzle: You can not report your own puzzle.
-    bad-payload: The request contains invalid data.
-    bad-building-placement: Your puzzle contains invalid placed buildings.
-    timeout: The request timed out.
-    too-many-likes-already: The puzzle alreay got too many likes. If you still want
-        to remove it, please contact support@shapez.io!
-    no-permission: You do not have the permission to perform this action.
+    ratelimit: Anda melakukan tindakan terlalu sering. Mohon tunggu sebentar.
+    invalid-api-key: Gagal berkomunikasi dengan backend, mohon memperbarui/mulai ulang permainan (Kunci Api Tidak Valid).
+    unauthorized: Gagal berkomunikasi dengan backend, mohon memperbarui/mulai ulang permainan (Bukan Pengarang yang Sah).
+    bad-token: Gagal berkomunikasi dengan backend, mohon memperbarui/mulai ulang permainan (Token Buruk).
+    bad-id: Pengenal teka-teki tidak valid
+    not-found: Teka-teki yang dimaksud tidak dapat ditemukan.
+    bad-category: Kategori yang dimaksud tidak dapat ditemukan.
+    bad-short-key: Kunci pendek yang dimaksud tidak valid.
+    profane-title: Judul teka-teki Anda mengandung bahasa tidak sopan.
+    bad-title-too-many-spaces: Nama teka-teki Anda terlalu pendek.
+    bad-shape-key-in-emitter: Sebuah produsen konstan memiliki sebuah barang yang tidak valid.
+    bad-shape-key-in-goal: Sebuah penerima gol memiliki sebuah item yang tidak valid.
+    no-emitters: Teka-teki Anda tidak memiliki sebuah produsen konstan.
+    no-goals: Teka-teki Anda tidak memiliki sebuah penerima gol.
+    short-key-already-taken: Kunci pendek ini sudah digunakan, mohon gunakan yang lainnya.
+    can-not-report-your-own-puzzle: Anda tidak dapat melaporkan teka-teki Anda sendiri.
+    bad-payload: Permintaan mengandung data yang tidak valid.
+    bad-building-placement: Teka-teki Anda mengandung bangunan yang memiliki letak yang tidak valid
+    timeout: Waktu permintaan habis.
+    too-many-likes-already: Teka-teki sudah mendapatkan terlalu banyak like. Jika Anda tetap ingin menghapusnya, mohon hubungi support@shapez.io!
+    no-permission: Anda tidak memiliki izin untuk melakukan tindakan ini.
